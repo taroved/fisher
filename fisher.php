@@ -254,7 +254,6 @@ class PowerPlay extends Play
             for ($i=0; $i<$parents_count; $i++)
                 $this->move_parent();
 
-            print_r($children_count);
             //move all childs except last 2
             for ($i=2; $i<$children_count; $i++)
                 $this->move_child();
